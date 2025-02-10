@@ -1,35 +1,19 @@
-from ultralytics import YOLO
-import cv2
+from transformers import WhisperProcessor, WhisperForConditionalGeneration
+import librosa 
 
-# Load a model
-model = YOLO("yolo11n.pt")
+# load model and processor
+processor = WhisperProcessor.from_pretrained("openai/whisper-small")
+model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-small")
+model.config.forced_decoder_ids = None
 
-# Train the model
-# train_results = model.train(
-#     data="coco8.yaml",  # path to dataset YAML
-#     epochs=100,  # number of training epochs
-#     imgsz=640,  # training image size
-#     device="cpu",  # device to run on, i.e. device=0 or device=0,1,2,3 or device=cpu
-# )
 
-# Evaluate model performance on the validation set
-# metrics = model.val()
+sample = librosa.load('output_back.wav', sr=16000)
+print(sample)
+input_features = processor(sample[0], sampling_rate=sample[1], return_tensors="pt").input_features 
 
-# Perform object detection on an image
-results = model("ss.png")
+# generate token ids
+predicted_ids = model.generate(input_features)
+# decode token ids to text
 
-for result in results:
-    for box in result.boxes:
-        # Extract bounding box coordinates
-        x1, y1, x2, y2 = box.xyxy[0].tolist()  # Top-left and bottom-right coordinates
-        confidence = box.conf.item()  # Confidence score
-        class_id = box.cls.item()  # Class ID
-        class_name = model.names[class_id]
-        print(class_id, class_name, x1, y1, x2, y2)
-# print(results[0].orig_img)
-results[0].show()
-# cv2.imshow('dsfgf', results[0].orig_img)
-# cv2.waitKey(0)
-
-# Export the model to ONNX format
-# path = model.export(format="onnx")  # return path to exported model
+transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True)
+print(transcription[0])

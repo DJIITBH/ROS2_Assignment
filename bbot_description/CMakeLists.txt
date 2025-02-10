@@ -34,6 +34,8 @@ install(
   src/republisher.py
   src/obj_publisher.py
   src/image_subscriber.py
+  src/voice_client.py
+  src/voice_service.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

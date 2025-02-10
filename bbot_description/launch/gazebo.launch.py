@@ -92,6 +92,6 @@ def generate_launch_description():
         gazebo_server,
         gazebo_client,
         urdf_spawn_node,
-        #joint_broad_spawner,    
-        #diff_cont_spawner
+        joint_broad_spawner,    
+        diff_cont_spawner
     ])

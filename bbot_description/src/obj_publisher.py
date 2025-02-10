@@ -4,7 +4,7 @@ import rclpy
 from rclpy.node import Node
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
-from vision_msgs.msg import Detection2D, ObjectHypothesisWithPose, BoundingBox2D
+from vision_msgs.msg import Detection2D, ObjectHypothesisWithPose
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -17,7 +17,7 @@ class ObjectDetection(Node):
         self.bridge = CvBridge()
         self.subscription = self.create_subscription(
             Image, '/camera/image_raw', self.image_callback, 10)
-        self.publisher = self.create_publisher(Detection2D, '/detected_objects', 10)
+        self.publisher = self.create_publisher(String, '/detected_objects', 10)
 
         # Load YOLO
         self.model = YOLO("yolo11n.pt")
@@ -35,37 +35,17 @@ class ObjectDetection(Node):
                     confidence = box.conf.item()  # Confidence score
                     class_id = box.cls.item()  # Class ID
                     class_name = self.model.names[class_id]
-        #             h = math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))
-        #             # x3 = x1 + h/math.sqrt(2)
-        #             x3 = x2
-        #             x4 = x1
-        #             y3 = y1
-        #             y4 = y2
-        #             img = String()
-        #             img.data = f"{class_name} + {x1} + {y1} + {x3} + {y3} + {x2} + {y2} + {x4} + {y4}"
-        #             print(img)
-        #     # print(class_name, x1, y1, x2, y2)
-            detection_msg = Detection2D()
-            detection_msg.header = msg.header
-
-            bbox = BoundingBox2D()
-            bbox.center.position.x = (x1 + x2) / 2.0
-            bbox.center.position.y = (y1 + y2) / 2.0
-            bbox.size_x = x2 - x1
-            bbox.size_y = y2 - y1
-            detection_msg.bbox = bbox
-
-            # Store only class ID and confidence
-            hypothesis = ObjectHypothesisWithPose()
-            hypothesis.hypothesis.class_id = str(class_id)
-            hypothesis.hypothesis.score = confidence
-            detection_msg.results.append(hypothesis)
-
-            # Publish detection
-            self.publisher.publish(detection_msg)
-            self.get_logger().info(f"Published detection: Class {class_id}, Box: ({x1}, {y1}, {x2}, {y2})")
-
-            # self.publisher.publish(img)
+                    h = math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1))
+                    # x3 = x1 + h/math.sqrt(2)
+                    x3 = x2
+                    x4 = x1
+                    y3 = y1
+                    y4 = y2
+                    img = String()
+                    img.data = f"{class_name} + {x1} + {y1} + {x3} + {y3} + {x2} + {y2} + {x4} + {y4}"
+                    print(img)
+            # print(class_name, x1, y1, x2, y2)
+            self.publisher.publish(img)
 
         except Exception as e:
             self.get_logger().error(f'Error processing image: {e}')

@@ -1,1 +1,0 @@
-/home/dhananjay/ws/nav_ws/src/build/robot_nav2/ament_cmake_core/robot_nav2Config-version.cmake

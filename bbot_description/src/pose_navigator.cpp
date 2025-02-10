@@ -16,8 +16,8 @@ public:
             this, "navigate_to_pose");
 
         // Declare parameters for the goal position and orientation
-        this->declare_parameter("x", 4.5); // Default goal position (x)
-        this->declare_parameter("y", -1.0); // Default goal position (y)
+        this->declare_parameter("x", 15.0); // Default goal position (x)
+        this->declare_parameter("y", -4.0); // Default goal position (y)
         this->declare_parameter("z", 0.0); // Default orientation (z)
         this->declare_parameter("w", 1.0); // Default orientation (w)
 
