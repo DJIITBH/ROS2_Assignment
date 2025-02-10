@@ -42,9 +42,9 @@ ros2 run bbot_description pose_navigator
   ```
 
 ## 🎥 Demo Video
-Click the image below to watch the demonstration:
+Click below to watch the demonstration:
 
-[![Watch the Demo](https://youtu.be/T_X8_3UtNWY)
+📹 [Watch the demonstration video](https://youtu.be/T_X8_3UtNWY)
 
 ## Approach
 - First I mapped a custom created world using teleoperation of mobile robot
@@ -95,9 +95,9 @@ ffmpeg -i backward.m4a -acodec pcm_s16le -ar 44100 -ac 2 output_back.wav
   ```
 
 ## 🎥 Demo Video
-Click the image below to watch the demonstration:
+Click below to watch the demonstration:
 
-[![Watch the Demo](https://youtu.be/HVS1NEqfuc8)
+📹 [Watch the demonstration video](https://youtu.be/HVS1NEqfuc8)
 
 ---
 ### 📌 Notes
