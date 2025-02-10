@@ -1,0 +1,79 @@
+[0.024s] Invoking command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/robot_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/robot_nav2
+[0.183s] -- The C compiler identification is GNU 11.4.0
+[0.486s] -- The CXX compiler identification is GNU 11.4.0
+[0.522s] -- Detecting C compiler ABI info
+[0.959s] -- Detecting C compiler ABI info - done
+[1.000s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.000s] -- Detecting C compile features
+[1.001s] -- Detecting C compile features - done
+[1.010s] -- Detecting CXX compiler ABI info
+[1.501s] -- Detecting CXX compiler ABI info - done
+[1.537s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.539s] -- Detecting CXX compile features
+[1.540s] -- Detecting CXX compile features - done
+[1.585s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.352s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.591s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.843s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.031s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.056s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.083s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.316s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.331s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.569s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.647s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.771s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.829s] -- Looking for pthread.h
+[4.241s] -- Looking for pthread.h - found
+[4.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.437s] -- Found Threads: TRUE  
+[4.560s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[4.573s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[4.709s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[4.721s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.926s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.928s] -- Added test 'lint_cmake' to check CMake code style
+[4.930s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.935s] -- Added test 'xmllint' to check XML markup files
+[4.940s] -- Configuring done
+[4.947s] -- Generating done
+[4.949s] -- Build files have been written to: /home/dhananjay/ws/nav_ws/src/build/robot_nav2
+[4.961s] Invoked command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/robot_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/robot_nav2
+[4.964s] Invoking command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/robot_nav2 -- -j12 -l12
+[5.047s] Invoked command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/robot_nav2 -- -j12 -l12
+[5.128s] Invoking command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/robot_nav2
+[5.145s] -- Install configuration: ""
+[5.145s] -- Execute custom install script
+[5.146s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//launch/nav2_bringup.launch.py
+[5.164s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//config/ekf.yaml
+[5.182s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//config/mapper_params_online_async.yaml
+[5.199s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/aruco_map.pgm
+[5.216s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/aruco_map.yaml
+[5.235s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/aruco_world.pgm
+[5.253s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/aruco_world.yaml
+[5.270s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/my_map.posegraph
+[5.287s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/my_map_new.data
+[5.305s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/my_map_new.pgm
+[5.323s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//map/my_map_new.yaml
+[5.341s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//params/nav2_params.yaml
+[5.360s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//rviz/nav2_default_view.rviz
+[5.379s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2//scripts/scripts_file_here.text
+[5.399s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/ament_index/resource_index/package_run_dependencies/robot_nav2
+[5.418s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/ament_index/resource_index/parent_prefix_path/robot_nav2
+[5.437s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/environment/ament_prefix_path.sh
+[5.455s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/environment/ament_prefix_path.dsv
+[5.472s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/environment/path.sh
+[5.490s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/environment/path.dsv
+[5.509s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/local_setup.bash
+[5.527s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/local_setup.sh
+[5.546s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/local_setup.zsh
+[5.566s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/local_setup.dsv
+[5.583s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.dsv
+[5.601s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/ament_index/resource_index/packages/robot_nav2
+[5.618s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/cmake/robot_nav2Config.cmake
+[5.637s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/cmake/robot_nav2Config-version.cmake
+[5.655s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.xml
+[5.676s] Invoked command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/robot_nav2

@@ -1,0 +1,197 @@
+[0.152s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x746e4f57dd80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x746e4f57d8d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x746e4f57d8d0>>, mixin_verb=('build',))
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.425s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dhananjay/ws/nav_ws/src'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extensions ['colcon_pkg']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extension 'colcon_pkg'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(bbot_description) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package 'bbot_description' with type 'ros.ament_cmake' and name 'bbot_description'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(robot_nav2) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_nav2' with type 'ros.ament_cmake' and name 'robot_nav2'
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.492s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dhananjay/ws/nav_ws/install
+[0.493s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/dhananjay/ws/gaadi/install
+[0.495s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 59 installed packages in /home/dhananjay/ros2_ws/install
+[0.498s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 496 installed packages in /opt/ros/humble
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'cmake_target' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'bbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'bbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhananjay/ws/nav_ws/src/build/bbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhananjay/ws/nav_ws/src/install/bbot_description', 'merge_install': False, 'path': '/home/dhananjay/ws/nav_ws/src/bbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_target' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'robot_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.584s] DEBUG:colcon.colcon_core.verb:Building package 'robot_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dhananjay/ws/nav_ws/src/build/robot_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dhananjay/ws/nav_ws/src/install/robot_nav2', 'merge_install': False, 'path': '/home/dhananjay/ws/nav_ws/src/robot_nav2', 'symlink_install': True, 'test_result_base': None}
+[0.584s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dhananjay/ws/nav_ws/src/bbot_description' with build type 'ament_cmake'
+[0.586s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dhananjay/ws/nav_ws/src/bbot_description'
+[0.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.601s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dhananjay/ws/nav_ws/src/robot_nav2' with build type 'ament_cmake'
+[0.601s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dhananjay/ws/nav_ws/src/robot_nav2'
+[0.601s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/bbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/bbot_description
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/robot_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/robot_nav2
+[5.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/robot_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/robot_nav2
+[5.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/robot_nav2 -- -j12 -l12
+[5.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/bbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/bbot_description
+[5.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/bbot_description -- -j12 -l12
+[5.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/robot_nav2 -- -j12 -l12
+[5.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/robot_nav2
+[6.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_nav2)
+[6.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/nav_ws/src/build/robot_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/robot_nav2
+[6.281s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2' for CMake module files
+[6.282s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2' for CMake config files
+[6.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_nav2', 'cmake_prefix_path')
+[6.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/hook/cmake_prefix_path.ps1'
+[6.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/hook/cmake_prefix_path.dsv'
+[6.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/hook/cmake_prefix_path.sh'
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/lib'
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/bin'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/lib/pkgconfig/robot_nav2.pc'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/lib/python3.10/site-packages'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/bin'
+[6.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.ps1'
+[6.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.dsv'
+[6.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.sh'
+[6.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.bash'
+[6.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.zsh'
+[6.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/colcon-core/packages/robot_nav2)
+[6.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_nav2)
+[6.356s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2' for CMake module files
+[6.357s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2' for CMake config files
+[6.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_nav2', 'cmake_prefix_path')
+[6.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/hook/cmake_prefix_path.ps1'
+[6.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/hook/cmake_prefix_path.dsv'
+[6.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/hook/cmake_prefix_path.sh'
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/lib'
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/bin'
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/lib/pkgconfig/robot_nav2.pc'
+[6.360s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/lib/python3.10/site-packages'
+[6.361s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/bin'
+[6.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.ps1'
+[6.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.dsv'
+[6.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.sh'
+[6.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.bash'
+[6.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/robot_nav2/package.zsh'
+[6.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhananjay/ws/nav_ws/src/install/robot_nav2/share/colcon-core/packages/robot_nav2)
+[10.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/bbot_description -- -j12 -l12
+[11.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/bbot_description
+[13.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bbot_description)
+[13.671s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description' for CMake module files
+[13.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/bbot_description
+[13.675s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description' for CMake config files
+[13.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('bbot_description', 'cmake_prefix_path')
+[13.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/hook/cmake_prefix_path.ps1'
+[13.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/hook/cmake_prefix_path.dsv'
+[13.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/hook/cmake_prefix_path.sh'
+[13.683s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/lib'
+[13.683s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/bin'
+[13.684s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/pkgconfig/bbot_description.pc'
+[13.685s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/python3.10/site-packages'
+[13.685s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/bin'
+[13.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.ps1'
+[13.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.dsv'
+[13.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.sh'
+[13.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.bash'
+[13.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.zsh'
+[13.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/colcon-core/packages/bbot_description)
+[13.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bbot_description)
+[13.950s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description' for CMake module files
+[13.952s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description' for CMake config files
+[13.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('bbot_description', 'cmake_prefix_path')
+[13.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/hook/cmake_prefix_path.ps1'
+[13.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/hook/cmake_prefix_path.dsv'
+[13.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/hook/cmake_prefix_path.sh'
+[13.960s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/lib'
+[13.960s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/bin'
+[13.960s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/pkgconfig/bbot_description.pc'
+[13.961s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/python3.10/site-packages'
+[13.962s] Level 1:colcon.colcon_core.environment:checking '/home/dhananjay/ws/nav_ws/src/install/bbot_description/bin'
+[13.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.ps1'
+[13.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.dsv'
+[13.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.sh'
+[13.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.bash'
+[13.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.zsh'
+[13.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dhananjay/ws/nav_ws/src/install/bbot_description/share/colcon-core/packages/bbot_description)
+[13.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.974s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.974s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.042s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.043s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/nav_ws/src/install/local_setup.ps1'
+[14.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhananjay/ws/nav_ws/src/install/_local_setup_util_ps1.py'
+[14.051s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/nav_ws/src/install/setup.ps1'
+[14.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/nav_ws/src/install/local_setup.sh'
+[14.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dhananjay/ws/nav_ws/src/install/_local_setup_util_sh.py'
+[14.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/nav_ws/src/install/setup.sh'
+[14.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/nav_ws/src/install/local_setup.bash'
+[14.090s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/nav_ws/src/install/setup.bash'
+[14.105s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dhananjay/ws/nav_ws/src/install/local_setup.zsh'
+[14.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dhananjay/ws/nav_ws/src/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/dhananjay/ws/nav_ws/src/build/robot_nav2/ament_cmake_environment_hooks/local_setup.bash

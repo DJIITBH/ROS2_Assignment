@@ -1,0 +1,98 @@
+[0.033s] Invoking command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/bbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/bbot_description
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.502s] -- The CXX compiler identification is GNU 11.4.0
+[0.540s] -- Detecting C compiler ABI info
+[0.987s] -- Detecting C compiler ABI info - done
+[1.020s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.020s] -- Detecting C compile features
+[1.021s] -- Detecting C compile features - done
+[1.033s] -- Detecting CXX compiler ABI info
+[1.539s] -- Detecting CXX compiler ABI info - done
+[1.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.589s] -- Detecting CXX compile features
+[1.591s] -- Detecting CXX compile features - done
+[1.637s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.616s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.861s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.048s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.072s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.099s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.332s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.347s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.584s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.662s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.843s] -- Looking for pthread.h
+[4.239s] -- Looking for pthread.h - found
+[4.242s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.451s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.452s] -- Found Threads: TRUE  
+[4.575s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.660s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[4.764s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.974s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.974s] -- Configured cppcheck include dirs: 
+[4.974s] -- Configured cppcheck exclude dirs and/or files: 
+[4.977s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.980s] -- Added test 'lint_cmake' to check CMake code style
+[4.981s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.986s] -- Added test 'uncrustify' to check C / C++ code style
+[4.986s] -- Configured uncrustify additional arguments: 
+[4.988s] -- Added test 'xmllint' to check XML markup files
+[4.992s] -- Configuring done
+[5.006s] -- Generating done
+[5.008s] -- Build files have been written to: /home/dhananjay/ws/nav_ws/src/build/bbot_description
+[5.020s] Invoked command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake /home/dhananjay/ws/nav_ws/src/bbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dhananjay/ws/nav_ws/src/install/bbot_description
+[5.022s] Invoking command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/bbot_description -- -j12 -l12
+[5.132s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_navigator.dir/src/pose_navigator.cpp.o[0m
+[9.733s] [100%] [32m[1mLinking CXX executable pose_navigator[0m
+[10.231s] [100%] Built target pose_navigator
+[10.249s] Invoked command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --build /home/dhananjay/ws/nav_ws/src/build/bbot_description -- -j12 -l12
+[10.416s] Invoking command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/bbot_description
+[10.472s] -- Install configuration: ""
+[10.474s] -- Execute custom install script
+[10.477s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/config/display.rviz
+[10.541s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/config/mapper_params_online_async.yaml
+[10.605s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/config/my_controllers.yaml
+[10.668s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/config/nav2_params.yaml
+[10.729s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/config/navigationrviz.rviz
+[10.793s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/config/twist_mux.yaml
+[10.856s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/urdf/bbot.xacro
+[10.921s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/urdf/camera.xacro
+[10.984s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/urdf/diff_drive.xacro
+[11.045s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/urdf/lidar.xacro
+[11.107s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/urdf/ros2_control.xacro
+[11.174s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/launch/display.launch.py
+[11.240s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/launch/gazebo.launch.py
+[11.307s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/launch/localization_launch.py
+[11.371s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/launch/navigation.launch.py
+[11.433s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/launch/navigation_launch.py
+[11.498s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/worlds/aruco.world
+[11.561s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/meshes/base_link.stl
+[11.624s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/meshes/camera_1.stl
+[11.687s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/meshes/leftwheel_1.stl
+[11.749s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/meshes/lidar_1.stl
+[11.811s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/meshes/rightwheel_1.stl
+[11.874s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/bbot_description/pose_navigator
+[11.938s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/bbot_description/republisher.py
+[12.001s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/bbot_description/obj_publisher.py
+[12.063s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/lib/bbot_description/image_subscriber.py
+[12.126s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/ament_index/resource_index/package_run_dependencies/bbot_description
+[12.188s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/ament_index/resource_index/parent_prefix_path/bbot_description
+[12.251s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/environment/ament_prefix_path.sh
+[12.314s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/environment/ament_prefix_path.dsv
+[12.380s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/environment/path.sh
+[12.443s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/environment/path.dsv
+[12.507s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/local_setup.bash
+[12.569s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/local_setup.sh
+[12.631s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/local_setup.zsh
+[12.697s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/local_setup.dsv
+[12.760s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.dsv
+[12.824s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/ament_index/resource_index/packages/bbot_description
+[12.887s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/cmake/bbot_descriptionConfig.cmake
+[12.951s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/cmake/bbot_descriptionConfig-version.cmake
+[13.015s] -- Symlinking: /home/dhananjay/ws/nav_ws/src/install/bbot_description/share/bbot_description/package.xml
+[13.086s] Invoked command in '/home/dhananjay/ws/nav_ws/src/build/bbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dhananjay/ros2_ws/install/rqt_joint_trajectory_controller:/home/dhananjay/ros2_ws/install/rqt_controller_manager:/home/dhananjay/ros2_ws/install/ros2controlcli:/home/dhananjay/ros2_ws/install/ros2_controllers_test_nodes:/home/dhananjay/ros2_ws/install/ros2_control_demo_testing:/opt/ros/humble /usr/bin/cmake --install /home/dhananjay/ws/nav_ws/src/build/bbot_description
