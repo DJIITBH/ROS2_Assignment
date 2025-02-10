@@ -109,7 +109,43 @@ Click below to watch the demonstration:
 - I used a speech to text conversion model to process speech commands
 - Then I used service client architecture to send request for audio commands
 - After receiving response of audio command, I published them on /cmd_vel topic to make robot move
+- Made a custom service to send and receive response of text data
   
 ## Challenges
 - Integration of Whisper model with service client architecture was difficult
+
+# ROS2 Object Detection using YOLO
+
+Before running the package, install the necessary dependencies:
+
+```bash
+pip install ultralytics cv2
+```
+## Execution Steps
+
+### 1. Launch Gazebo and Spawn the World
+Run the following command to launch Gazebo with the defined world:
+```bash
+ros2 launch bbot_description gazebo.launch.py
+```
+
+### 3. Run the Object detection File 
+Execute the following command to run the detection script and send coordinates and class of object:
+```bash
+ros2 run bbot_description obj_publisher.py 
+```
+Execute the following command to receive coordinates and class of object:
+```bash
+ros2 run bbot_description image_subscriber.py
+```
+## 🎥 Demo Video
+Click below to watch the demonstration:
+
+📹 [Watch the demonstration video](https://youtu.be/c3vxh45bRcM)
+
+---
+### 📌 Notes
+- Ensure all dependencies are installed before running the commands.
+- Ensure you have YOLOv11 installed
+
 
