@@ -72,27 +72,17 @@ sudo apt-get install portaudio19-dev
 
 ## 🚀 Execution Steps
 
-### 1️⃣ Launch Gazebo and Spawn the World
+### Launch Gazebo and Spawn the World
 ```bash
 ros2 launch bbot_description gazebo.launch.py
 ```
 
-### 2️⃣ Launch RViz and Nav2 for Navigation
-```bash
-ros2 launch bbot_description nav2.launch.py
-```
-
-### 3️⃣ Run the Navigation Node (C++ Pose Goal)
-```bash
-ros2 run bbot_description pose_navigator
-```
-
-### 4️⃣ Convert `.m4a` File to `.wav` Format for Processing
+### Convert `.m4a` File to `.wav` if you have priorly recorded audio files
 ```bash
 ffmpeg -i backward.m4a -acodec pcm_s16le -ar 44100 -ac 2 output_back.wav
 ```
 
-### 5️⃣ Run the Voice Command Nodes
+### Run the Voice Command Nodes
 
 - **Start the Client Node (to send voice recording requests)**
   ```bash
@@ -115,4 +105,11 @@ Click the image below to watch the demonstration:
 - The robot will be spawned in Gazebo with navigation capabilities.
 - Voice commands can be processed using the service node to assist navigation.
 
+## Approach
+- I used a speech to text conversion model to process speech commands
+- Then I used service client architecture to send request for audio commands
+- After receiving response of audio command, I published them on /cmd_vel topic to make robot move
+  
+## Challenges
+- Integration of Whisper model with service client architecture was difficult
 
